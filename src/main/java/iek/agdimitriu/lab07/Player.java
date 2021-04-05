@@ -17,8 +17,8 @@ public class Player {
     private String lastName; //Επιθετο Παικτη
     private Date birthDate; //Ημερομηνια Γεννησης Παικτη
     
-    public Player (String f, String 1){
+    public Player (String f, String l){
         this.firstName=f;
-        this.lastName=1;
+        this.lastName=l;
     }
 }
