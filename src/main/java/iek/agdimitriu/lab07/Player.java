@@ -30,4 +30,9 @@ public class Player {
         System.out.println("Last Name: " + lastName);
         System.out.println("Birth Date: " + birthDate);
     }
+    
+    public String toString(){
+        return "First Name: "+firstName+" Last Name: "+lastName+
+                ", Birth Date: "+birthDate;
+    }
 }

@@ -16,6 +16,10 @@ public class Lab07Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Player player1=new Player("Εξω", "Φυλαρουχος");
+        player1.printStats();
+        System.out.println(player1);
     }
     
 }
